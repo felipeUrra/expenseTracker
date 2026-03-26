@@ -117,9 +117,3 @@ Example structure:
 
 - Descriptions are intended to disallow `-`, but the current validation function always returns `False`, so `-` is not actually blocked.
 - The `update` command is intended to request an ID, but the current `tracker.py` implementation calls `updateExpense(...)` with the wrong parameters. If you want, I can propose a fixed version.
-
----
-
-## License
-
-No license file is currently included. If you want, tell me which license you prefer (MIT / Apache-2.0 / GPL-3.0 / etc.) and I’ll add the proper section text for the README.
